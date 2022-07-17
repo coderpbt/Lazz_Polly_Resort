@@ -107,6 +107,27 @@ window.addEventListener('scroll', function(){
 });
 
 
+// back to top btn
+var t1 = 0;
+window.onscroll = scroll1;
+
+function scroll1() {
+  var toTop = document.getElementById('toTop');
+  window.scrollY > 45 ? toTop.style.display = 'Block' : toTop.style.display = 'none';
+}
+
+function abcd() {
+  var y1 = window.scrollY;
+  y1 = y1 - 1000;
+  window.scrollTo(0, y1);
+  if (y1 > 0) {
+    t1 = setTimeout("abcd()", 50);
+  } else {
+    clearTimeout(t1);
+  }
+}
+
+
 
 
 
