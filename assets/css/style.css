@@ -335,7 +335,7 @@ p {
 	top: 0px;
 	width: 100%;
 	z-index: 22;
-	background: url('https://www.bluemountain.ca/public/Shared/images/transparent-header-light.svg');
+	background: rgba(0, 0, 0, 0.5);
 }
 .header-top-left > ul > li {
 	margin-right: 20px;
@@ -343,14 +343,14 @@ p {
 .header-top-left > ul > li > a, .header-top-right > ul > li > a {
 	color: #fff;
 	font-family: var(--poppins);
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 500;
-	opacity: .60;
+	
 }
 
 .header-top-left > ul > li:hover a{
 	opacity: 1;
-	transition: 0.6s;
+	transition: 0.4s;
 }
 
 
@@ -373,26 +373,24 @@ p {
 	font-size: 15px;
 	display: block;
 	color: #fff;
-	opacity: .60;
-	transition: 0.6s;
+	transition: 0.4s;
 }
 .header-top-right > ul > li:hover a{
 	opacity: 1;
-	transition: 0.6s;
+	transition: 0.4s;
 }
 
 .header-top-flex.d-flexx {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 	clear: both;
 	overflow: hidden;
-	padding: 10px 0px;
+	padding: 4px 0px;
 }
 
 .main-menu-flex {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 4px 0px;
 }
 .main-menu > ul {
 	display: flex;
@@ -406,13 +404,11 @@ p {
 	padding: 8px 15px;
 	font-family: var(--raleway);
 	font-weight: 600;
-	text-transform: ;
 	color: #fff;
-	transition: 0.6s;
 }
 .main-menu > ul > li:hover a{
 	color: var(--secundery-color);
-	transition: 0.6s;
+	transition: 0.4s;
 }
 .main-menu > ul > li.active a{
 	color:#ffb606 !important;
@@ -442,16 +438,16 @@ p {
 	visibility: hidden;
 	opacity: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	-webkit-transition: 0.6s;
-	transition: 0.6s;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
 }
 
 .main-menu > ul li:hover > ul{
 	visibility: visible;
 	opacity: 1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	-webkit-transition: 0.6s;
-	transition: 0.6s;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
 	left: 0;
 }
 
@@ -616,7 +612,7 @@ p {
 	color: #fff;
 	font-size: 18px;
 	font-weight: 600;
-	transition: 0.6s;
+	transition: 0.4s;
 	border-radius: 5px;
 }
 
@@ -915,7 +911,7 @@ figure.effect-layla:hover figcaption::before, figure.effect-layla:hover figcapti
 
 figure.effect-layla:hover h3 {
 	opacity: 0;
-	transition-duration: .5s;
+	transition-duration: .4s;
 	padding: 0px 0px;
 }
 
@@ -966,9 +962,9 @@ figure.effect-layla:hover p {
 	-ms-flex-align: center;
 	align-items: center;
 	text-align: center;
-	-webkit-transition: .6s;
-	-o-transition: .6s;
-	transition: .6s;
+	-webkit-transition: .4s;
+	-o-transition: .4s;
+	transition: .4s;
 }
 
 .support-given-single-item {
@@ -1068,12 +1064,12 @@ figure.effect-layla:hover p {
 	z-index: 999;
 	-webkit-box-shadow: 0px -2px 24px 1px rgba(0, 0, 0, 0.06);
 	box-shadow: 0px -2px 24px 1px rgba(0, 0, 0, 0.06);
-	transition: 0.8s;
+	transition: 0.4s;
 	margin-top: -175px;
 }
 
 .main-header-area.fade-in .animi {
-	transition: 0.8s;
+	transition: 0.4s;
 	margin-top: 0px;
 }
 
@@ -1082,7 +1078,7 @@ figure.effect-layla:hover p {
 }
 .main-header-area.fade-in .animi .main-menu > ul > li a {
 	color: #000;
-	transition: 0.6s;
+	transition: 0.4s;
 }
 
 /**************************************/
@@ -1106,7 +1102,7 @@ section article {
 	bottom: 0;
 	color: #fff;
 	font-size: 16px;
-	height: 600px;
+	height: 580px;
 	padding: 26px 30px 0 30px;
 	position: absolute;
 	right: 0;
@@ -1208,8 +1204,8 @@ section article {
 /************************************/
 .footer-area{
 	overflow: hidden;
-	background: #000;
-	padding: 60px 0px 15px 0px;
+	background: #353535;
+	padding: 50px 0px 15px 0px;
 	color: #fff;
 	position: relative;
 }
@@ -1232,7 +1228,7 @@ section article {
 }
 
 .footer-logo {
-	flex: 0 0 25%;
+	flex: 0 0 24%;
 	text-align: center;
 }
 .footer-menu {
@@ -1248,7 +1244,7 @@ section article {
 	background: #fff;
 	position: relative;
 	height: 44px;
-	top: 30px;
+	top: 50px;
 }
 .footer-marque marquee h2 {
 	display: block;
@@ -1274,7 +1270,7 @@ section article {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 75px;
+	padding-top: 45px;
 }
 
 .footer-bottom p {
@@ -1305,10 +1301,10 @@ ul.footer-links li a::before {
 	content: '';
 	position: absolute;
 	right: 0px;
-	top: 6px;
+	top: 2px;
 	width: 1px;
 	height: 15px;
-	background: #313131;
+	background: #fff;
 }
 
 
@@ -1355,6 +1351,34 @@ p.site ul.footer-links li a:before{ content:''; position: absolute; width: 100%;
 }
 /*Link Hover Ends*/
 
+.footer-area-top {
+	background: #463120;
+	padding: 5px 0px;
+	overflow: hidden;
+}
+
+.footer-top-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-top-content > p {
+	color: #fff;
+	font-size: 15px;
+}
+
+#current-time {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+}
+.footer-time > span {
+	color: #fff;
+	font-size: 14px;
+	text-align: ;
+	float: right;
+	font-weight: 300;
+}
 
 /**************************************/
 /************ back to top*************/
@@ -1376,7 +1400,7 @@ p.site ul.footer-links li a:before{ content:''; position: absolute; width: 100%;
 	cursor: pointer;
 	border-radius: 50%;
 	z-index: 99;
-	transition: 0.6s;
+	transition: 0.4s;
 }
 
 #toTop:after {
@@ -1392,7 +1416,7 @@ p.site ul.footer-links li a:before{ content:''; position: absolute; width: 100%;
 
 
 #toTop:hover {
-  transition: 0.6s;
+  transition: 0.4s;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
