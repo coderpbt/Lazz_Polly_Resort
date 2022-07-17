@@ -391,6 +391,7 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 7px 0px;
 }
 .main-menu > ul {
 	display: flex;
@@ -571,7 +572,7 @@ p {
 
 .slide.custom-splide {
 	position: relative;
-	max-height: 700px;
+	max-height: 610px;
 	z-index: 1;
 }
 
@@ -623,7 +624,7 @@ p {
 }
 
 .logo > a > img {
-    width: 100px;
+    width: 85px;
     height: auto;
 }
 
