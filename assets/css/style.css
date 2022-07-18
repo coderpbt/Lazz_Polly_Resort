@@ -585,6 +585,35 @@ p {
 
 }
 */
+@keyframes bounceInUp {
+   0% {
+      opacity: 0;
+      transform: translateY(20px);
+   }
+   60% {
+      opacity: 1;
+      transform: translateY(00px);
+   }
+   80% {
+      transform: translateY(0px);
+   }
+   100% {
+      transform: translateY(0);
+   }
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 0;
+  }  
+  100% {
+      opacity: 1;
+  }
+}
+
 
 .banner-content-overly {
 	position: absolute;
@@ -594,6 +623,23 @@ p {
 	max-width: 493px;
 	right: 30px;
 }
+/*.ani1{
+		-webkit-animation-duration: 2s;
+animation-duration: 2s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
+-webkit-animation-name: fadeIn;
+animation-name: fadeIn;
+}
+.ani2{
+-webkit-animation-duration: 2.5s;
+animation-duration: 2.5s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
+-webkit-animation-name: fadeIn;
+animation-name: fadeIn;
+}
+*/
 
 
 
@@ -602,6 +648,7 @@ p {
 	color: #fff;
 	font-weight: 700;
 	text-shadow: 1px 3px 8px #131110;
+
 }
 .banner-content h2 span {
 	display: block;
