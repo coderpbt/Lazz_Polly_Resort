@@ -137,10 +137,6 @@ setInterval(() => {
 
 
 
-
-
-
-
 //splide slider js
 document.addEventListener( 'DOMContentLoaded', function() {
   var splide = new Splide( '.resort_banner_slide',{
