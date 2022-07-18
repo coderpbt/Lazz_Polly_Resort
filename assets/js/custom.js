@@ -27,8 +27,8 @@ const counterAnim = (e, t = 0, s, i = 1e3) => {
 
 
 const xyz = () => {
-     counterAnim("#count1", 300, 200, 1e3), counterAnim("#count2", 5e3, 4e3, 1500), counterAnim("#count3", 1e3, 100, 2e3), 
-     counterAnim("#count4", 500, 300, 2500);
+     counterAnim("#count1", 300, 2000, 1e3), counterAnim("#count2", 5e3, 4e3, 1500), counterAnim("#count3", 1e3, 3000, 2e3), 
+     counterAnim("#count4", 500, 7000, 2500);
 }
 
 let isAnimeDone = false;

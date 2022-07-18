@@ -495,16 +495,15 @@ p {
 /************ banner  Area*************/
 /************************************/
 
-/*.slide.custom-splide::after {
+.slide.custom-splide::after {
 	position: absolute;
 	content: "";
 	width: 100%;
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(0,0,0,0.3);
-
-}*/
+	background: rgba(0,0,0,0.1);
+}
 
 
 .logo > h2 {
@@ -944,13 +943,17 @@ figure.effect-layla:hover p {
 	justify-content: space-between;
 }
 
+.footer-top-content {
+	text-align: center;
+}
+
 
 /**************************************/
 /************ support given  Area*************/
 /************************************/
 .support-given-area {
 	overflow: hidden;
-	padding: 59px 0;
+	padding: 50px 0;
 	background: #353535;
 }
 .support-given-main-flex {
@@ -978,19 +981,18 @@ figure.effect-layla:hover p {
 }
 
 .display_4 {
-	width: 100px;
-	height: 100px;
-	line-height: 100px !important;
+	width: 130px;
+	height: 130px;
+	line-height: 130px !important;
 	color: #fff !important;
 }
 
 
-
 .support-gif-icon {
-	width: 100px;
-	height: 100px;
-	border: 2px dashed #ddd;
-	line-height: 100px;
+	width: 130px;
+	height: 130px;
+	border: 1px dashed #ddd;
+	line-height: 130px;
 	text-align: center;
 	border-radius: 50%;
 	margin: 0 auto;
@@ -1001,17 +1003,34 @@ figure.effect-layla:hover p {
 .support-gif-icon::after {
 	position: absolute;
 	content: "";
-	width: 100px;
-	height: 1px;
+	width: 1px;
+	height: 130px;
 	background: #fff;
-	left: 150px;
+	left: 205px;
 	top: 50%;
 	transform: translateY(-50%);
 	opacity: .50;
 }
-.support-given-single-item:last-child .support-gif-icon:after{
+.support-gif-icon::before {
+	position: absolute;
+	content: "";
+	width: 1px;
+	height: 130px;
+	background: #fff;
+	right: 205px;
+	top: 50%;
+	transform: translateY(-50%);
+	opacity: .50;
+}
+
+
+/*.support-given-single-item:last-child .support-gif-icon:after{
 	display: none;
 }
+.support-given-single-item:first-child .support-gif-icon:before{
+	display: none;
+}*/
+
 
 .support-gif-icon img {
 	width: 45px;
@@ -1046,7 +1065,7 @@ figure.effect-layla:hover p {
 .support-given-single-item span {
 	color: #fff;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 18px;
 	font-style: italic;
 }
 
@@ -1237,7 +1256,7 @@ section article {
 }
 .footer-menu > ul > li > a {
 	color: #fff;
-	font-size: 14px;
+	font-size: 13px;
 	letter-spacing: .5px;
 	font-weight: 300;
 }
@@ -1365,7 +1384,7 @@ p.site ul.footer-links li a:before{ content:''; position: absolute; width: 100%;
 }
 .footer-top-content > p {
 	color: #fff;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 #current-time {
@@ -1379,6 +1398,9 @@ p.site ul.footer-links li a:before{ content:''; position: absolute; width: 100%;
 	text-align: ;
 	float: right;
 	font-weight: 300;
+}
+.footer-links {
+	text-align: justify;
 }
 
 /**************************************/
