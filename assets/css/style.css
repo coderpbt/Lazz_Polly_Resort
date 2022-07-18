@@ -575,7 +575,7 @@ p {
 	z-index: 1;
 }
 
-.banner-content-overly {
+/*.banner-content-overly {
 	position: absolute;
 	z-index: 1;
 	width: 100%;
@@ -584,13 +584,25 @@ p {
 	transform: translateY(-50%);
 
 }
+*/
+
+.banner-content-overly {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	bottom: 35px;
+	max-width: 493px;
+	right: 75px;
+}
+
+
 
 .banner-content h2 {
 	font-size: 55px;
 	color: #fff;
-	font-weight: 500;
+	font-weight: 700;
+	text-shadow: 1px 3px 8px #131110;
 }
-
 .banner-content h2 span {
 	display: block;
 }
@@ -599,13 +611,13 @@ p {
 	font-size: 18px;
 	color: #fff;
 	display: block;
-	padding: 16px 0px;
+	/*padding: 16px 0px;*/
 }
 
 .common-btn{
 	margin-top: 20px;
 }
-.common-btn > a {
+/*.common-btn > a {
 	border: 2px solid #fff;
 	display: inline-block;
 	padding: 15px 35px;
@@ -615,7 +627,18 @@ p {
 	transition: 0.4s;
 	border-radius: 5px;
 }
+*/
 
+.common-btn > a {
+	border: 2px solid #fff;
+	display: inline-block;
+	padding: 10px 15px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	transition: 0.4s;
+	border-radius: 5px;
+}
 .common-btn > a:hover{
 	background: var(--secundery-color);
 	color: #000;
